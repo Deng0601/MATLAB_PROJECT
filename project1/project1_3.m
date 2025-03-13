@@ -6,3 +6,6 @@ indices=(arr>='A'&arr<='Z');
 arr(indices)=arr(indices)+32;
 str1=string(arr);
 disp("大写字母替换为小写字母后："+str1);
+%(2)
+str2=replace(str1,"student","teacher");
+disp("学生替换为老师后："+str2);
