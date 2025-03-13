@@ -8,3 +8,6 @@ disp(B);
 A(:,[1,3])=[];
 disp('A = ');
 disp(A);
+B(end-2,:)=[];
+disp('B = ');
+disp(B);
